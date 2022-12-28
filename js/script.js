@@ -8,7 +8,7 @@ const formSearch = document.querySelector('.form-search');
 //  поле ввода
 const searchInput = document.querySelector('.form-search__input');
 // значение атрибута numlength из searchInput
-const txtNumLength = searchInput.getAttribute('numlength'); 
+const txtNumLength = searchInput.getAttribute('data-numlength'); 
 // span для вывода значения
 const txtCounter = document.querySelector('.form-search__numb');
 txtCounter.innerHTML = txtNumLength;
