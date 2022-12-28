@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>lesson_25</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header"></header>
+      <main class="page">
+         <div class="page__container">
+            <h1>Домашка №25</h1>
+            <div class="lesson">
+               <h3>Урок №15. События</h3>
+               <div class="task">
+                  <span>Задача.</span>
+                  Пишем форму поиска, которая открывается по клику на иконку
+                  а закрывается по клику на любое место страницы, 
+                  кроме самой формы.
+                  Также, закрыть форму можно по клавише (Esc) на клавиатуре.
+                  Для поля ввода поискового запроса добавляем счётчик символов.
+               </div>
+               <div class="search">
+                  <form action="" method="POST" class="search__form form-search">
+                     <input type="text" numlength="0" class="form-search__input" placeholder="Поиск" autocomplete="off" id="search" name="search">
+                     <div class="form-search__counter">
+                        Счётчик символов: <span class="form-search__numb"> </span>
+                     </div>
+                  </form>
+                  <div class="search__icon">
+                     <img src="img/icon-search.png" alt="icon-search">
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </main>
+      <footer class="footer"></footer>
+
+      <script src="js/script.js"></script>
+   </div>
+</body>
+</html>
